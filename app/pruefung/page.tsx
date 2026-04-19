@@ -59,22 +59,22 @@ const parts = [
 
 export default function PruefungsInfoPage() {
   return (
-    <div className="space-y-10">
+    <div className="space-y-8 sm:space-y-10">
       <header className="max-w-3xl">
         <p className="text-xs uppercase tracking-widest text-sky-400">Prüfungsinfo</p>
-        <h1 className="mt-1 text-3xl font-semibold text-white">So läuft die AP2 ab</h1>
-        <p className="mt-3 text-zinc-300">
+        <h1 className="mt-1 text-2xl font-semibold leading-tight text-white sm:text-3xl">So läuft die AP2 ab</h1>
+        <p className="mt-3 text-sm text-zinc-300 sm:text-base">
           Vier Prüfungsbereiche auf Basis des aktualisierten Prüfungskatalogs (Oktober 2024). AP1 zählt
           zusätzlich mit 20 % zur Gesamtnote. Bestehen: Gesamtnote ≥ „ausreichend", kein Bereich
           „ungenügend", max. ein Bereich „mangelhaft" (mit Ergänzungsprüfung).
         </p>
       </header>
 
-      <div className="grid gap-4 md:grid-cols-2">
+      <div className="grid gap-3 sm:gap-4 md:grid-cols-2">
         {parts.map((p) => (
           <article
             key={p.title}
-            className="rounded-xl border border-white/10 bg-white/[0.02] p-5"
+            className="rounded-xl border border-white/10 bg-white/[0.02] p-4 sm:p-5"
           >
             <div className="flex items-start justify-between gap-3">
               <div>

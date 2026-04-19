@@ -20,32 +20,32 @@ export default function Home() {
     .slice(0, 8);
 
   return (
-    <div className="space-y-14">
+    <div className="space-y-10 sm:space-y-14">
       {/* Hero */}
-      <section className="relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-zinc-900 via-zinc-950 to-zinc-900 p-8">
-        <div className="grid gap-8 md:grid-cols-[2fr_1fr] md:items-center">
+      <section className="relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-zinc-900 via-zinc-950 to-zinc-900 p-5 sm:p-8">
+        <div className="grid gap-6 md:grid-cols-[2fr_1fr] md:items-center md:gap-8">
           <div>
-            <p className="mb-2 text-xs font-semibold uppercase tracking-[0.22em] text-sky-400">
+            <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.2em] text-sky-400 sm:text-xs sm:tracking-[0.22em]">
               AP2 Frühjahr 2026 · Anwendungsentwicklung
             </p>
-            <h1 className="text-3xl font-semibold leading-tight tracking-tight text-white md:text-4xl">
+            <h1 className="text-[1.75rem] font-semibold leading-tight tracking-tight text-white sm:text-3xl md:text-4xl">
               Prüfungsorientiert lernen – <span className="text-sky-300">priorisiert</span> nach dem, was wirklich drankommt.
             </h1>
-            <p className="mt-4 max-w-2xl text-zinc-300">
+            <p className="mt-4 max-w-2xl text-sm text-zinc-300 sm:text-base">
               Alle AP2-Themen gemäß IHK-Katalog (Okt. 2024) auf einer Seite. Jedes Thema zeigt seine Prüfungs-
               relevanz nach Häufigkeit und Punktausbeute der letzten 12 Prüfungen. Mit Beispielen und kleinen
               Übungen – Multiple Choice, SQL, Pseudocode-Tracing.
             </p>
-            <div className="mt-6 flex flex-wrap gap-3">
+            <div className="mt-6 flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:gap-3">
               <Link
                 href="/fokus"
-                className="inline-flex items-center gap-2 rounded-lg bg-sky-500 px-4 py-2.5 text-sm font-medium text-white hover:bg-sky-400"
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-sky-500 px-4 py-3 text-sm font-medium text-white hover:bg-sky-400 active:bg-sky-600 sm:py-2.5"
               >
                 🎯 Fokus-Lernen starten
               </Link>
               <Link
                 href="/themen"
-                className="inline-flex items-center gap-2 rounded-lg border border-white/15 bg-white/5 px-4 py-2.5 text-sm font-medium text-zinc-100 hover:bg-white/10"
+                className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/15 bg-white/5 px-4 py-3 text-sm font-medium text-zinc-100 hover:bg-white/10 active:bg-white/15 sm:py-2.5"
               >
                 Alle Themen ansehen
               </Link>
@@ -53,7 +53,7 @@ export default function Home() {
           </div>
           <div className="rounded-xl border border-white/10 bg-black/40 p-5">
             <div className="text-xs uppercase tracking-wider text-zinc-500">Countdown</div>
-            <div className="mt-1 text-5xl font-bold text-white">{daysUntilAP2()}</div>
+            <div className="mt-1 text-4xl font-bold text-white sm:text-5xl">{daysUntilAP2()}</div>
             <div className="text-sm text-zinc-400">Tage bis Mi, 29. April 2026</div>
             <div className="mt-4 border-t border-white/10 pt-4 text-xs text-zinc-400">
               Prüfungsteile Frühjahr 2026:
@@ -72,7 +72,7 @@ export default function Home() {
         <h2 className="mb-3 text-sm font-semibold uppercase tracking-widest text-zinc-400">
           So liest du die Prioritäten
         </h2>
-        <div className="grid gap-2 md:grid-cols-5">
+        <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {priorityOrder.map((p) => (
             <div key={p} className="rounded-lg border border-white/10 bg-white/[0.02] p-3 text-xs">
               <div className="flex items-center justify-between gap-2">
@@ -89,7 +89,7 @@ export default function Home() {
 
       {/* Muss-Wissen */}
       <section>
-        <div className="mb-4 flex items-end justify-between gap-3">
+        <div className="mb-4 flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between sm:gap-3">
           <h2 className="text-xl font-semibold text-white">🥇 Muss-Wissen</h2>
           <span className="text-xs text-zinc-400">
             Essentielle Themen · 100% Prüfungswahrscheinlichkeit
@@ -104,7 +104,7 @@ export default function Home() {
 
       {/* Hotspots */}
       <section>
-        <div className="mb-4 flex items-end justify-between gap-3">
+        <div className="mb-4 flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between sm:gap-3">
           <h2 className="text-xl font-semibold text-white">🔥 Hotspots</h2>
           <span className="text-xs text-zinc-400">Sehr häufig · 80–99% Prüfungswahrscheinlichkeit</span>
         </div>
@@ -117,7 +117,7 @@ export default function Home() {
 
       {/* Punktbringer */}
       <section>
-        <div className="mb-4 flex items-end justify-between gap-3">
+        <div className="mb-4 flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between sm:gap-3">
           <h2 className="text-xl font-semibold text-white">🎯 Größte Punktbringer</h2>
           <span className="text-xs text-zinc-400">
             Kumulierte Punkte aus allen AP2-Prüfungen seit 2020
@@ -127,17 +127,17 @@ export default function Home() {
           {topPointsByTopic.map((t, i) => (
             <li
               key={t.slug}
-              className="flex items-center justify-between gap-4 rounded-lg border border-white/10 bg-white/[0.02] px-4 py-3"
+              className="flex items-center justify-between gap-3 rounded-lg border border-white/10 bg-white/[0.02] px-3 py-3 sm:gap-4 sm:px-4"
             >
-              <div className="flex items-center gap-3">
-                <span className="grid h-7 w-7 place-items-center rounded-md bg-white/5 text-xs text-zinc-400">
+              <div className="flex min-w-0 items-center gap-3">
+                <span className="grid h-7 w-7 flex-none place-items-center rounded-md bg-white/5 text-xs text-zinc-400">
                   {i + 1}
                 </span>
-                <Link href={`/thema/${t.slug}`} className="text-sm text-zinc-100 hover:text-white">
+                <Link href={`/thema/${t.slug}`} className="truncate text-sm text-zinc-100 hover:text-white">
                   {t.title}
                 </Link>
               </div>
-              <span className="font-mono text-sm text-amber-200">~{t.pointsAllTime} P.</span>
+              <span className="flex-none font-mono text-sm text-amber-200">~{t.pointsAllTime} P.</span>
             </li>
           ))}
         </ol>

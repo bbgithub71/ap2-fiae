@@ -19,10 +19,10 @@ export default function FokusPage() {
     <div className="space-y-8">
       <header className="max-w-3xl">
         <p className="text-xs uppercase tracking-widest text-sky-400">Fokus-Modus</p>
-        <h1 className="mt-1 text-3xl font-semibold text-white">
+        <h1 className="mt-1 text-2xl font-semibold leading-tight text-white sm:text-3xl">
           Die {focus.length} wichtigsten Themen für die AP2
         </h1>
-        <p className="mt-3 text-zinc-300">
+        <p className="mt-3 text-sm text-zinc-300 sm:text-base">
           Statistisch fast garantiert. Wenn deine Lernzeit knapp ist – hier ansetzen. Diese Themen
           machen den Löwenanteil der AP2-Punkte aus.
         </p>
@@ -36,7 +36,7 @@ export default function FokusPage() {
           >
             <Link
               href={`/thema/${t.slug}`}
-              className="flex items-start gap-4 p-4"
+              className="flex items-start gap-3 p-3 sm:gap-4 sm:p-4"
             >
               <span className="mt-0.5 grid h-8 w-8 flex-none place-items-center rounded-lg bg-gradient-to-br from-sky-500/30 to-violet-500/30 font-mono text-sm text-white">
                 {i + 1}
