@@ -22,12 +22,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     >
       <body className="min-h-full bg-zinc-950 text-zinc-100">
         <SiteHeader />
-        <main className="mx-auto w-full max-w-6xl px-6 py-10">{children}</main>
-        <footer className="mt-20 space-y-1 border-t border-white/10 py-6 text-center text-xs text-zinc-500">
+        <main className="mx-auto w-full max-w-6xl px-4 py-6 sm:px-6 sm:py-10">{children}</main>
+        <footer className="mt-12 space-y-1.5 border-t border-white/10 px-4 py-6 text-center text-xs text-zinc-500 sm:mt-20 sm:px-6">
           <p>
             AP2 Lernhub · Inhalte basieren auf IHK-Prüfungskatalog (Okt. 2024) und Auswertung der letzten 12 Prüfungen.
           </p>
-          <p className="text-zinc-600">
+          <p className="mx-auto max-w-prose text-zinc-600">
             Diese Seite wurde mit KI-Unterstützung (Claude Opus 4.7) erstellt; Inhalte wurden mit KI recherchiert und zusammengestellt. Ohne Gewähr – vor der Prüfung bitte mit offiziellen Quellen abgleichen.
           </p>
         </footer>

@@ -9,10 +9,27 @@ body {
   background: #09090b;
   color: #ededed;
   font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 
 a {
   color: inherit;
+}
+
+/* Prevent iOS from zooming when focusing inputs (requires font-size >= 16px). */
+input,
+textarea,
+select {
+  font-size: 16px;
+}
+@media (min-width: 640px) {
+  input,
+  textarea,
+  select {
+    font-size: inherit;
+  }
 }
 
 .prose-content {
@@ -69,11 +86,22 @@ a {
   font-style: normal;
 }
 
+/* Tables become horizontally scrollable on small screens so they don't overflow the viewport. */
 .prose-content table {
+  display: block;
   width: 100%;
   margin: 1rem 0;
   border-collapse: collapse;
-  font-size: 0.9rem;
+  font-size: 0.875rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (min-width: 640px) {
+  .prose-content table {
+    display: table;
+    font-size: 0.9rem;
+  }
 }
 
 .prose-content th,
@@ -89,9 +117,16 @@ a {
   background: rgba(255, 255, 255, 0.03);
   color: #f4f4f5;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .prose-content hr {
   margin: 1.5rem 0;
   border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Long inline code / URLs should wrap instead of causing horizontal overflow. */
+.prose-content code {
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }

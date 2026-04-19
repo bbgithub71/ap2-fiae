@@ -27,10 +27,10 @@ export function MultipleChoice({ q }: { q: MultipleChoiceQuestion }) {
     [...correctIds].every((id) => selected.has(id));
 
   return (
-    <div className="my-5 rounded-xl border border-white/10 bg-white/[0.02] p-4">
-      <div className="mb-3 flex items-center justify-between gap-3">
-        <p className="font-medium text-zinc-100">
-          <span className="mr-2 rounded-md bg-white/5 px-2 py-0.5 text-[10px] uppercase tracking-wider text-zinc-400">
+    <div className="my-5 rounded-xl border border-white/10 bg-white/[0.02] p-3 sm:p-4">
+      <div className="mb-3 flex items-start justify-between gap-3">
+        <p className="text-sm font-medium text-zinc-100 sm:text-base">
+          <span className="mr-2 inline-block rounded-md bg-white/5 px-2 py-0.5 align-middle text-[10px] uppercase tracking-wider text-zinc-400">
             {multi ? "Mehrfachauswahl" : "Eine Antwort"}
           </span>
           {q.question}
@@ -53,7 +53,7 @@ export function MultipleChoice({ q }: { q: MultipleChoiceQuestion }) {
                 type="button"
                 onClick={() => toggle(o.id)}
                 disabled={submitted}
-                className={`flex w-full items-start gap-3 rounded-lg border px-3 py-2 text-left text-sm transition ${state}`}
+                className={`flex w-full items-start gap-3 rounded-lg border px-3 py-3 text-left text-sm transition sm:py-2 ${state}`}
               >
                 <span
                   className={`mt-0.5 inline-flex h-5 w-5 flex-none items-center justify-center rounded-${
@@ -75,7 +75,7 @@ export function MultipleChoice({ q }: { q: MultipleChoiceQuestion }) {
           );
         })}
       </ul>
-      <div className="mt-3 flex items-center justify-between gap-3">
+      <div className="mt-3 flex flex-col-reverse gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div className="text-xs text-zinc-400">
           {submitted ? (
             allCorrect ? (
@@ -87,7 +87,7 @@ export function MultipleChoice({ q }: { q: MultipleChoiceQuestion }) {
             <span>💡 {q.hint}</span>
           ) : null}
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 self-end sm:self-auto">
           {submitted ? (
             <button
               type="button"
@@ -95,7 +95,7 @@ export function MultipleChoice({ q }: { q: MultipleChoiceQuestion }) {
                 setSelected(new Set());
                 setSubmitted(false);
               }}
-              className="rounded-md border border-white/10 px-3 py-1.5 text-xs text-zinc-200 hover:bg-white/5"
+              className="min-h-[40px] rounded-md border border-white/10 px-4 py-2 text-sm text-zinc-200 hover:bg-white/5 active:bg-white/10 sm:min-h-0 sm:px-3 sm:py-1.5 sm:text-xs"
             >
               Nochmal
             </button>
@@ -104,7 +104,7 @@ export function MultipleChoice({ q }: { q: MultipleChoiceQuestion }) {
               type="button"
               onClick={() => setSubmitted(true)}
               disabled={selected.size === 0}
-              className="rounded-md bg-sky-500/80 px-3 py-1.5 text-xs font-medium text-white hover:bg-sky-400 disabled:opacity-40"
+              className="min-h-[40px] rounded-md bg-sky-500/80 px-4 py-2 text-sm font-medium text-white hover:bg-sky-400 active:bg-sky-600 disabled:opacity-40 sm:min-h-0 sm:px-3 sm:py-1.5 sm:text-xs"
             >
               Prüfen
             </button>

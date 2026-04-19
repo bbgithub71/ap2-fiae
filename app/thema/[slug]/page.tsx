@@ -31,16 +31,19 @@ export default async function TopicPage({ params }: { params: Promise<{ slug: st
   const meta = priorityMeta[topic.priority];
 
   return (
-    <article className="space-y-8">
+    <article className="space-y-6 sm:space-y-8">
       {/* Header */}
       <header className="space-y-3">
-        <nav className="flex items-center gap-2 text-xs text-zinc-400">
+        <nav
+          aria-label="Brotkrumen-Navigation"
+          className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-zinc-400"
+        >
           <Link href="/" className="hover:text-zinc-200">Start</Link>
-          <span>›</span>
+          <span aria-hidden>›</span>
           <Link href={`/kategorie/${category.id}`} className="hover:text-zinc-200">
             {category.title}
           </Link>
-          <span>›</span>
+          <span aria-hidden>›</span>
           <span className="text-zinc-300">{topic.title}</span>
         </nav>
 
@@ -63,8 +66,10 @@ export default async function TopicPage({ params }: { params: Promise<{ slug: st
           ) : null}
         </div>
 
-        <h1 className="text-3xl font-semibold tracking-tight text-white">{topic.title}</h1>
-        <p className="max-w-3xl text-lg text-zinc-300">{topic.summary}</p>
+        <h1 className="text-2xl font-semibold leading-tight tracking-tight text-white sm:text-3xl">
+          {topic.title}
+        </h1>
+        <p className="max-w-3xl text-base text-zinc-300 sm:text-lg">{topic.summary}</p>
 
         <div className="rounded-xl border border-white/10 bg-white/[0.02] p-4 text-sm text-zinc-300">
           <strong className="text-zinc-100">Warum Priorität „{meta.label}"?</strong> {meta.description}
