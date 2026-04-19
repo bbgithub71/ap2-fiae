@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { SiteHeader } from "@/components/SiteHeader";
 import "./globals.css";
 
@@ -24,6 +26,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="mt-20 border-t border-white/10 py-6 text-center text-xs text-zinc-500">
           AP2 Lernhub · Inhalte basieren auf IHK-Prüfungskatalog (Okt. 2024) und Auswertung der letzten 12 Prüfungen.
         </footer>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
