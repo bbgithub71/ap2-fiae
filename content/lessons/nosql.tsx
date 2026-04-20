@@ -50,7 +50,7 @@ export const nosql: Lesson = {
       </CodeBlock>
 
       <Callout variant="tip">
-        NoSQL ≠ «No SQL», sondern <strong>«Not only SQL»</strong>. Viele NoSQL-DBs haben eigene
+        NoSQL ≠ «No SQL", sondern <strong>«Not only SQL»</strong>. Viele NoSQL-DBs haben eigene
         Query-Sprachen (z. B. Cypher für Neo4j).
       </Callout>
 

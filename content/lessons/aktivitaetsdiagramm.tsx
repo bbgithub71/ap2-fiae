@@ -133,8 +133,8 @@ export const aktivitaetsdiagramm: Lesson = {
       <h2>5. So gehst du in der Prüfung vor</h2>
       <ol>
         <li>Text 2× lesen – einmal Schnelldurchlauf, einmal Akteure und Abläufe notieren.</li>
-        <li>Alle Aktionen als Liste sammeln. Fragewörter helfen: »und dann?«, »außer wenn?«, »parallel?«.</li>
-        <li>Entscheidungen suchen (»wenn«, »falls«, »andernfalls«) – das werden Rauten.</li>
+        <li>Alle Aktionen als Liste sammeln. Fragewörter helfen: »und dann?", »außer wenn?", »parallel?«.</li>
+        <li>Entscheidungen suchen (»wenn", »falls", »andernfalls«) – das werden Rauten.</li>
         <li>Start und Ende(n) setzen, Symbole korrekt verwenden.</li>
         <li>Pfeile prüfen: keine offenen Enden, jede Raute hat eine ausgehende Bedingung für jeden Fall.</li>
       </ol>

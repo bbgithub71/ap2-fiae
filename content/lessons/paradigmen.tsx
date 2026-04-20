@@ -16,7 +16,7 @@ export const paradigmen: Lesson = {
         <li><strong>Imperativ:</strong> Schritt-für-Schritt-Anweisungen mit veränderlichem Zustand (C, Pascal).</li>
         <li><strong>Prozedural</strong> (Unterart imperativ): Gliederung in Prozeduren / Funktionen (C).</li>
         <li><strong>Objektorientiert:</strong> Kapselung, Vererbung, Polymorphie (Java, C#, C++).</li>
-        <li><strong>Deklarativ:</strong> beschreibt das «Was», nicht das «Wie» (SQL, HTML).</li>
+        <li><strong>Deklarativ:</strong> beschreibt das «Was", nicht das «Wie» (SQL, HTML).</li>
         <li><strong>Funktional</strong> (Unterart deklarativ): reine Funktionen, Immutability (Haskell, F#, Lisp, Teile von JS).</li>
         <li><strong>Logisch:</strong> Fakten + Regeln, Inferenz durch die Laufzeit (Prolog).</li>
       </ul>

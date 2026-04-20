@@ -14,8 +14,8 @@ export const klassenbeziehungen: Lesson = {
       <h2>Übersicht</h2>
       <ul>
         <li><strong>Assoziation</strong> (—): allgemeine «kennt»-Beziehung, oft mit Multiplizität.</li>
-        <li><strong>Aggregation</strong> (◇—): «hat», Teil kann ohne Ganzes existieren.</li>
-        <li><strong>Komposition</strong> (◆—): «besteht aus», Teil stirbt mit dem Ganzen.</li>
+        <li><strong>Aggregation</strong> (◇—): «hat", Teil kann ohne Ganzes existieren.</li>
+        <li><strong>Komposition</strong> (◆—): «besteht aus", Teil stirbt mit dem Ganzen.</li>
         <li><strong>Vererbung / Generalisierung</strong> (△): «ist ein».</li>
         <li><strong>Abhängigkeit</strong> (- - →): kurzlebige Nutzung, z. B. Parameter.</li>
         <li><strong>Realisierung</strong> (gestricheltes △): «implementiert Interface».</li>
