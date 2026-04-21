@@ -198,5 +198,20 @@ Person (abstrakt) ← Kunde, Mitarbeiter  (Vererbung)`}
     "Sichtbarkeiten nicht vergessen – Standardfehler, der Teilpunkte kostet.",
     "Bei Vererbung: Gemeinsame Attribute in die Oberklasse, Spezifisches in die Unterklasse.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "UML-Klassendiagramm für AP1 der IT-Berufe",
+      url: "https://www.youtube.com/watch?v=F3RDwz-uoX8",
+      channel: "IT-Berufe-Podcast (Stefan Macke)",
+      note: "Lehrgespräch speziell für IT-Azubis – exakt auf IHK-Prüfungsniveau.",
+    },
+    {
+      kind: "video",
+      title: "UML-Klassendiagramm: Assoziation, Aggregation, Komposition",
+      url: "https://www.youtube.com/watch?v=soH7f9ZxIME",
+      note: "Fokus auf die Beziehungstypen – zentrales Prüfungsthema.",
+    },
+  ],
   related: ["oo-grundprinzipien", "klassenbeziehungen", "sequenzdiagramm"],
 };

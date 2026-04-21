@@ -78,5 +78,28 @@ export const recht: Lesson = {
     "Widerruf: 14 Tage.",
     "§ 7 UWG für Spam-Fragen merken.",
   ],
+  resources: [
+    {
+      kind: "page",
+      title: "urheberrecht.de – UWG (Gesetz gegen unlauteren Wettbewerb)",
+      url: "https://www.urheberrecht.de/uwg/",
+      source: "urheberrecht.de",
+      note: "Sehr verständliche Einführung in das UWG – inkl. Spam § 7.",
+    },
+    {
+      kind: "page",
+      title: "Widerrufsrecht bei Dienstleistungen – Bedingungen & rechtssichere Gestaltung",
+      url: "https://kanzlei-kramarz.de/widerrufsrecht-bei-dienstleistungen-bedingungen-rechtssichere-gestaltung/",
+      source: "kanzlei-kramarz.de",
+      note: "14-Tage-Frist und Ausnahmen bei Fernabsatzverträgen.",
+    },
+    {
+      kind: "page",
+      title: "Das Verhältnis von Markenrecht und Lauterkeitsrecht",
+      url: "https://www.kanzlei.law/markenrecht/das-verhaeltnis-von-markenrecht-und-lauterkeitsrecht/",
+      source: "kanzlei.law",
+      note: "Markenrecht vs. UWG – wann gilt was?",
+    },
+  ],
   related: ["lizenzmodelle", "dsgvo", "kundenbeziehungen"],
 };

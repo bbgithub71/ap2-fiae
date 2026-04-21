@@ -85,5 +85,19 @@ export const cloudSpeicher: Lesson = {
     "«Zwei Standorte mit eigenem Speichernetz» → SAN.",
     "FaaS-Beispiel immer mit einem konkreten Dienst (Lambda).",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Cloud Computing einfach erklärt: Vor- und Nachteile, Sicherheit, IaaS/PaaS/SaaS & mehr",
+      url: "https://www.youtube.com/watch?v=HRtsnOgxLSo",
+      note: "Deckt die Cloud-Modelle komplett ab.",
+    },
+    {
+      kind: "video",
+      title: "Cloud Computing & Vorteile für Anfänger einfach erklärt. IaaS, PaaS, SaaS?",
+      url: "https://www.youtube.com/watch?v=VlDk1IK9ycs",
+      note: "7-Minuten-Kompakteinführung mit Firmenbeispielen.",
+    },
+  ],
   related: ["backup-archivierung", "container", "architektur-patterns"],
 };

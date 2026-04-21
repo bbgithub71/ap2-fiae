@@ -86,5 +86,26 @@ export const wisoSozialversicherung: Lesson = {
     "Summe AN-Anteil grob: ca. 20–21 % des Bruttos.",
     "PKV-Wechsel nur oberhalb der JAEG, nicht der BBG.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "5 Säulen der Sozialversicherung einfach erklärt",
+      url: "https://www.youtube.com/watch?v=PaLmldtLryQ",
+      note: "Kurz und prüfungstauglich – deckt alle 5 Zweige ab.",
+    },
+    {
+      kind: "video",
+      title: "Die 5 Säulen der Sozialversicherung",
+      url: "https://www.youtube.com/watch?v=Zga6ToYyVww",
+      note: "Zweite Variante mit anderer Erklärstruktur – zum Quervergleich.",
+    },
+    {
+      kind: "page",
+      title: "Betriebsausgabe.de – 5 Säulen der Sozialversicherung (Stand 2026)",
+      url: "https://www.betriebsausgabe.de/wiki/sozialversicherung/",
+      source: "betriebsausgabe.de",
+      note: "Aktuelle Beitragssätze 2026 – exakt die Zahlen, die du auswendig brauchst.",
+    },
+  ],
   related: ["wiso-arbeitsrecht", "wiso-bgb"],
 };

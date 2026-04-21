@@ -92,5 +92,19 @@ Authorization: Bearer eyJhbGciOi...`}
     "401 vs. 403: 401 = nicht angemeldet, 403 = angemeldet aber keine Rechte.",
     "PUT = komplette Ersetzung, PATCH = Teil-Update.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "HTTP-Statuscodes: Alle benutzen sie falsch?!",
+      url: "https://www.youtube.com/watch?v=2ZOFCl3E-_c",
+      note: "Gute Übersicht der wichtigsten Codes mit häufigen Fehlern.",
+    },
+    {
+      kind: "video",
+      title: "HTTP Statuscodes erklärt | DAS musst du darüber wissen",
+      url: "https://www.youtube.com/watch?v=NCvpXwbCJtI",
+      note: "Systematische Einteilung der 5 Status-Gruppen.",
+    },
+  ],
   related: ["rest-apis", "web-sicherheit"],
 };

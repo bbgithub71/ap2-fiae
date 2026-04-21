@@ -80,5 +80,19 @@ export const osiModell: Lesson = {
     "Hub vs. Switch vs. Router nicht verwechseln.",
     "TLS steht formal auf Schicht 6, im Alltag zwischen 4 und 7 diskutiert.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Das OSI-Modell – 7 Schichten in unter 5 Minuten einfach erklärt",
+      url: "https://www.youtube.com/watch?v=9F_AwkOmXZk",
+      note: "Sehr kompakt – ideal für die schnelle Wiederholung.",
+    },
+    {
+      kind: "video",
+      title: "Aus diesen 7 Schichten besteht das OSI-Modell!",
+      url: "https://www.youtube.com/watch?v=4Prd_ngsJRk",
+      note: "Alle Schichten einzeln mit Beispielen durchgegangen.",
+    },
+  ],
   related: ["ip-subnetting", "protokolle"],
 };

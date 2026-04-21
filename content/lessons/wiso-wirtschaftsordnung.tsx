@@ -88,5 +88,34 @@ export const wisoWirtschaftsordnung: Lesson = {
     "Preisbildung mit Schaubild durchdenken.",
     "«Unsichtbare Hand» (Adam Smith) ≠ soziale Marktwirtschaft.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Marktformen einfach erklärt",
+      url: "https://www.youtube.com/watch?v=TwkMH7cE2FE",
+      channel: "explainity",
+      note: "Polypol, Oligopol, Monopol in 3 Minuten.",
+    },
+    {
+      kind: "video",
+      title: "Gleichgewichtspreis einfach erklärt",
+      url: "https://www.youtube.com/watch?v=aZrkZ0-sreI",
+      channel: "explainity",
+      note: "Preisbildung im Marktgleichgewicht visualisiert.",
+    },
+    {
+      kind: "video",
+      title: "Angebot & Nachfrage – einfach erklärt",
+      url: "https://www.youtube.com/watch?v=QqwGFtV2e0s",
+      note: "Grundmechanik der Preisbildung.",
+    },
+    {
+      kind: "page",
+      title: "studyflix – Soziale Marktwirtschaft",
+      url: "https://studyflix.de/wirtschaft/soziale-marktwirtschaft-1857",
+      source: "studyflix.de",
+      note: "Prinzipien und Abgrenzung zur reinen Markt- bzw. Planwirtschaft.",
+    },
+  ],
   related: ["wiso-rechtsformen", "kundenbeziehungen", "wiso-mitbestimmung"],
 };

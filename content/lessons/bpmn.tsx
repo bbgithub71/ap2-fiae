@@ -90,5 +90,19 @@ export const bpmn: Lesson = {
     "Pools NIE mit Sequenzfluss verbinden – immer Nachrichtenfluss.",
     "Jeder Prozess hat genau 1 Startevent pro Pool (meist).",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "BPMN Tutorial – Grundlagen | Business Process Model and Notation | BPMN lernen",
+      url: "https://www.youtube.com/watch?v=UbH2-KgMMxU",
+      note: "Aktuelles Video (2024) mit BPMN-2.0-Grundelementen.",
+    },
+    {
+      kind: "video",
+      title: "Einfache Modellierung in BPMN 2.0 – Schulung",
+      url: "https://www.youtube.com/watch?v=xmls25KO7V8",
+      note: "Schulungsvideo mit praktischer Modellierung.",
+    },
+  ],
   related: ["aktivitaetsdiagramm", "anforderungen"],
 };

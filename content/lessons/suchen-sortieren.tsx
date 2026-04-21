@@ -123,5 +123,19 @@ ENDE FÜR`}
     "O-Notation beschreibt Wachstum, nicht tatsächliche Laufzeit.",
     "»Stabil« = gleiche Werte behalten ihre Reihenfolge.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Bubble Sort Algorithmus [mit Animation, Deutsch]",
+      url: "https://www.youtube.com/watch?v=Mj-payJDsdw",
+      note: "Mit Animation – super zum Visualisieren des Algorithmus.",
+    },
+    {
+      kind: "video",
+      title: "Insertion Sort einfach erklärt | Algorithmen und Datenstrukturen",
+      url: "https://www.youtube.com/watch?v=NX2aKF4amdY",
+      note: "Insertion Sort Schritt für Schritt.",
+    },
+  ],
   related: ["pseudocode", "datenstrukturen"],
 };

@@ -93,5 +93,20 @@ export const dsgvo: Lesson = {
     "Datenschutz vs. Datensicherheit exakt auseinanderhalten.",
     "72 h – DIE magische Zahl für Datenpannen.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Datenschutz: Diese Grundlagen solltest du kennen – DSGVO einfach erklärt #1",
+      url: "https://www.youtube.com/watch?v=pXWMbQInubU",
+      channel: "WBS – Die Experten",
+      note: "Seriöse Einführung von Rechtsanwalt Christian Solmecke.",
+    },
+    {
+      kind: "video",
+      title: "DSGVO erklärt: Grundlagen der EU-Datenschutzgrundverordnung",
+      url: "https://www.youtube.com/watch?v=Tnq2VG8xhRo",
+      note: "Zweite, strukturierte Erklärung mit Beispielen.",
+    },
+  ],
   related: ["schutzziele", "backup-archivierung"],
 };

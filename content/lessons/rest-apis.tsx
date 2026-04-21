@@ -93,5 +93,19 @@ Content-Type: application/json
     "Immer Location-Header bei 201 setzen.",
     "OAuth 2.0 und JWT als Auth-Beispiele parat halten.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Was ist eine REST-API? – Einführung in REST-APIs (inkl. Authentication)",
+      url: "https://www.youtube.com/watch?v=ZuINS_-n-AM",
+      note: "Moderne Einführung mit Auth-Aspekten.",
+    },
+    {
+      kind: "video",
+      title: "REST API Erklärung | Was ist RESTful API Design wirklich?",
+      url: "https://www.youtube.com/watch?v=uhXCuSnIwjg",
+      note: "Design-Prinzipien von REST konkret erklärt.",
+    },
+  ],
   related: ["http", "datenformate", "web-sicherheit"],
 };

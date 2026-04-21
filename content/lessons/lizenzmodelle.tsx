@@ -71,5 +71,28 @@ export const lizenzmodelle: Lesson = {
     "AGPL schließt die SaaS-Lücke der GPL.",
     "Apache 2.0 enthält zusätzlich eine Patentklausel.",
   ],
+  resources: [
+    {
+      kind: "page",
+      title: "WBS Legal – Open-Source-Lizenzen: Ein Überblick",
+      url: "https://www.wbs.legal/allgemein/open-source-lizenzen-ein-uberblick-14575/",
+      source: "wbs.legal",
+      note: "Von Rechtsanwalt Christian Solmecke – verständlich und praxisnah.",
+    },
+    {
+      kind: "page",
+      title: "bitfactory – Open-Source-Lizenzen: Grundlagen & Entscheidungshilfen",
+      url: "https://www.bitfactory.io/de/blog/open-source-lizenzen/",
+      source: "bitfactory.io",
+      note: "Entwickler-Perspektive, inkl. Auswahlkriterien.",
+    },
+    {
+      kind: "page",
+      title: "ifrOSS – Die wichtigsten Open-Source-Lizenzen im Überblick",
+      url: "https://www.ifross.org/welches-sind-wichtigsten-open-source-lizenzen-und-welchem-lizenztyp-gehoeren-sie",
+      source: "ifross.org",
+      note: "Das maßgebliche Institut für Open-Source-Recht in Deutschland.",
+    },
+  ],
   related: ["recht", "make-or-buy", "no-low-code"],
 };

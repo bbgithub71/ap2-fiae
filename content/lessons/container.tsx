@@ -82,5 +82,19 @@ CMD ["node", "server.js"]`}
     "Pod / Deployment / Service – das Trio auswendig.",
     "Minimal-Dockerfile mit FROM, COPY, RUN, CMD skizzieren können.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "DOCKER Crashkurs – Docker lernen und verstehen in 20 Minuten (inkl. Docker-compose)",
+      url: "https://www.youtube.com/watch?v=tTdNMMExjZI",
+      note: "Kompakt und praxisnah – perfekt für den Einstieg.",
+    },
+    {
+      kind: "video",
+      title: "Docker lernen: Eine Einführung in 100 Minuten",
+      url: "https://www.youtube.com/watch?v=DESdVoKhIxY",
+      note: "Ausführliche Einführung – Container, Images, Registries.",
+    },
+  ],
   related: ["architektur-patterns", "cloud-speicher", "modularisierung"],
 };

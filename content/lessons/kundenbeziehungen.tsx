@@ -77,5 +77,33 @@ export const kundenbeziehungen: Lesson = {
     "Phasen des Kundengesprächs in Reihenfolge.",
     "DSGVO-Bezug immer mit erwähnen.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Was ist Customer Relationship Management (CRM)?",
+      url: "https://www.youtube.com/watch?v=JaXX1IgNu28",
+      note: "Grundlagen CRM in wenigen Minuten erklärt.",
+    },
+    {
+      kind: "video",
+      title: "Was ist CRM? – Alternative Erklärung",
+      url: "https://www.youtube.com/watch?v=yIKUI617bZk",
+      note: "Zweite Perspektive, zum Verfestigen.",
+    },
+    {
+      kind: "page",
+      title: "Haufe-Akademie – CRM-Glossar",
+      url: "https://www.haufe-akademie.de/blog/glossar/crm/",
+      source: "haufe-akademie.de",
+      note: "Kompakt und prüfungsnah.",
+    },
+    {
+      kind: "page",
+      title: "StudySmarter – CRM einfach erklärt",
+      url: "https://www.studysmarter.de/studium/bwl/marketing/customer-relationship-management/",
+      source: "studysmarter.de",
+      note: "Operatives, analytisches und kollaboratives CRM mit Beispielen.",
+    },
+  ],
   related: ["dsgvo", "recht", "praesentieren"],
 };

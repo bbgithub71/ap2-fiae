@@ -86,5 +86,20 @@ end`}
     "Antwort-Pfeile (gestrichelt, offene Spitze) sind oft Teilpunkte.",
     "Bei alt/opt/loop: Rahmen mit Titel in eckigen Klammern beschriften.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "UML-Sequenzdiagramm für AP2 Fachinformatiker Anwendungsentwicklung",
+      url: "https://www.youtube.com/watch?v=CHkVwoxxg58",
+      channel: "IT-Berufe-Podcast (Stefan Macke)",
+      note: "Lehrgespräch direkt für AP2 FIAE – Pflichtmaterial.",
+    },
+    {
+      kind: "video",
+      title: "UML Sequenzdiagramm an einem Beispiel | Einfach erklärt!",
+      url: "https://www.youtube.com/watch?v=16VdlGiHTq0",
+      note: "Kompaktes Beispielvideo zum Verinnerlichen.",
+    },
+  ],
   related: ["klassendiagramm", "aktivitaetsdiagramm", "zustandsdiagramm"],
 };
