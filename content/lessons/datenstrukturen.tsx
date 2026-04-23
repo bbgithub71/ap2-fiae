@@ -65,5 +65,25 @@ export const datenstrukturen: Lesson = {
     "Laufzeit nie präzise auswendig lernen – grob einordnen und begründen.",
     "In Szenarien-Aufgaben IMMER die Wahl begründen.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Überblick: Array, Liste, Stack, Queue",
+      url: "https://www.youtube.com/watch?v=LsafnCmgY08",
+      note: "Kompakter Rundblick über die wichtigsten Datenstrukturen.",
+    },
+    {
+      kind: "video",
+      title: "Datenstruktur Stack – Grundlagen und Pseudocode",
+      url: "https://www.youtube.com/watch?v=GyBn4i1u4Wk",
+      note: "Stack im Detail – LIFO-Prinzip mit Array- und Listen-Implementierung.",
+    },
+    {
+      kind: "video",
+      title: "Datenstruktur Queue – Grundlagen und Pseudocode",
+      url: "https://www.youtube.com/watch?v=TnxJDesp6Uk",
+      note: "Queue im Detail – FIFO-Prinzip mit Pseudocode.",
+    },
+  ],
   related: ["suchen-sortieren", "pseudocode", "generics"],
 };

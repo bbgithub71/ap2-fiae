@@ -94,5 +94,20 @@ GIB summe aus`,
     "Abbruchbedingung UND Fortschritt (i ← i + 1) immer beide prüfen – sonst Endlosschleife.",
     "`break` sparsam einsetzen und kommentieren – Korrektor will den Pfad erkennen.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Kontrollstrukturen – Schleifen",
+      url: "https://www.youtube.com/watch?v=sgWS9jRBX8g",
+      note: "Überblick über Schleifentypen mit C-Beispielen.",
+    },
+    {
+      kind: "page",
+      title: "studyflix – If-Anweisung einfach erklärt",
+      url: "https://studyflix.de/informatik/if-anweisung-220",
+      source: "studyflix.de",
+      note: "Verzweigungen Schritt für Schritt, mit eingebettetem Video.",
+    },
+  ],
   related: ["pseudocode", "rekursion", "suchen-sortieren"],
 };

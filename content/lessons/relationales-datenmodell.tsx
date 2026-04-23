@@ -174,5 +174,20 @@ bestellposition (bestellung_id → bestellung,
     "Fremdschlüssel nie in der 1-Seite, sondern immer in der n-Seite platzieren.",
     "ON DELETE / ON UPDATE: in der Prüfung meist RESTRICT oder CASCADE – Entscheidung begründen können.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Welche Schlüssel existieren in Datenbanken?",
+      url: "https://www.youtube.com/watch?v=Vgi3kfAJZQQ",
+      note: "Primär-, Fremd- und weitere Schlüsselarten erklärt.",
+    },
+    {
+      kind: "page",
+      title: "sibiwiki.de – Relationales Datenmodell",
+      url: "https://sibiwiki.de/wiki/index.php?title=Relationales_Datenmodell",
+      source: "sibiwiki.de",
+      note: "Kompakte textuelle Erklärung mit Beispielen.",
+    },
+  ],
   related: ["erm", "normalisierung", "sql-ddl", "sql-grundlagen"],
 };

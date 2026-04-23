@@ -99,5 +99,19 @@ WHERE stadt = 'Hamburg';`,
     "Bei mehreren DML-Statements in einer Transaktion klammern.",
     "SQL-Syntax-Beiblatt hilft bei Funktionen wie UPPER, ROUND, NOW.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Datenbanken und SQL #10 – Datensätze verändern mit UPDATE",
+      url: "https://www.youtube.com/watch?v=UrbG73W_SeE",
+      note: "Fokus auf UPDATE-Befehl mit Beispielen.",
+    },
+    {
+      kind: "video",
+      title: "Einführung in MySQL: SELECT, UPDATE, INSERT und DELETE schnell erklärt",
+      url: "https://www.youtube.com/watch?v=mseVEvluYb0",
+      note: "Alle DML-Operationen in einem Video.",
+    },
+  ],
   related: ["sql-select", "sql-joins", "sql-grundlagen", "transaktionen-acid"],
 };

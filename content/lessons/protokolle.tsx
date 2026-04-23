@@ -73,5 +73,19 @@ export const protokolle: Lesson = {
     "TCP (verbindungsorientiert, Handshake) vs. UDP (verbindungslos, stateless).",
     "HTTPS, SSH, IMAPS, SMTPS ersetzen Klartext-Varianten.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "TCP vs. UDP | Die Unterschiede der beiden Protokolle",
+      url: "https://www.youtube.com/watch?v=v8_mM7zq8GE",
+      note: "Direkter Vergleich der beiden Transport-Protokolle.",
+    },
+    {
+      kind: "video",
+      title: "Erklär mir: TCP- und UDP-Verbindung | TCP Handshake",
+      url: "https://www.youtube.com/watch?v=whZ2o8WtS8A",
+      note: "Der 3-Way-Handshake visualisiert.",
+    },
+  ],
   related: ["osi-modell", "ip-subnetting", "vpn-wlan"],
 };

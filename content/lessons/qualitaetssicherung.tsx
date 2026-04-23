@@ -76,5 +76,21 @@ export const qualitaetssicherungLesson: Lesson = {
     "QS ≠ Testen – Testen ist nur eine von vielen QS-Maßnahmen.",
     "PDCA-Phasen in korrekter Reihenfolge nennen können.",
   ],
+  resources: [
+    {
+      kind: "page",
+      title: "INZTITUT – ISO 25010: Kriterien zur Qualität von Software",
+      url: "https://inztitut.de/blog/glossar/iso-25010/",
+      source: "inztitut.de",
+      note: "Alle 8 Qualitätsmerkmale mit Erläuterungen.",
+    },
+    {
+      kind: "page",
+      title: "Johner-Institut – ISO 9126 und ISO 25010 im Vergleich",
+      url: "https://www.johner-institut.de/blog/iec-62304-%20medizinische-software/iso-9126-und-iso-25010/",
+      source: "johner-institut.de",
+      note: "Wie ISO 25010 die ältere ISO 9126 abgelöst hat.",
+    },
+  ],
   related: ["testmethoden", "teststufen", "tdd"],
 };

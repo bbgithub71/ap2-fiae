@@ -84,5 +84,21 @@ export const datenformate: Lesson = {
     "Vor-/Nachteile-Tabelle auswendig: Lesbarkeit, Größe, Typensystem, Einsatzgebiet.",
     "JSON Schema ist das Pendant zu XSD – kannst du oft als Frage erwarten.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "JSON und XML: Was ist der Unterschied? (Kurzformat)",
+      url: "https://www.youtube.com/shorts/tCrBF2GEj9Y",
+      channel: "nexoma",
+      note: "Kurzer Vergleich JSON ↔ XML.",
+    },
+    {
+      kind: "page",
+      title: "Vergleich CSV, XML, JSON (PDF)",
+      url: "https://rimbakowsky.de/Material/Informatik/CSV_XML_JSON_Vergleich.pdf",
+      source: "rimbakowsky.de",
+      note: "Übersichtliches Unterrichts-PDF mit allen drei Formaten im direkten Vergleich.",
+    },
+  ],
   related: ["xml-validierung", "rest-apis", "soap-webservices"],
 };

@@ -185,5 +185,19 @@ WHERE preis > (SELECT AVG(preis) FROM artikel);`,
     "HAVING nur für Aggregate, WHERE nur für Zeilen – beim Mischen verwechselt man das gern.",
     "Bei Alias-Namen in ORDER BY immer ok, in WHERE meistens nicht.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "SQL Select Tutorial (Deutsch/German)",
+      url: "https://www.youtube.com/watch?v=jhr3Mc7GGjQ",
+      note: "Deutsches Tutorial zum SELECT-Befehl – gut für den Einstieg.",
+    },
+    {
+      kind: "video",
+      title: "Group By und Having – SQL Tutorial mit Beispielen",
+      url: "https://www.youtube.com/watch?v=QlsSHRwSEPQ",
+      note: "COUNT(), SUM() und die Unterscheidung WHERE vs. HAVING erklärt.",
+    },
+  ],
   related: ["sql-grundlagen", "sql-joins", "sql-update", "sql-insert"],
 };

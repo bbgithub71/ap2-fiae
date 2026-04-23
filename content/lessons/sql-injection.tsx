@@ -79,5 +79,19 @@ ps.executeQuery();`}
     "Mindestens 3 Gegenmaßnahmen nennen (Prepared Statements, Validierung, Least Privilege).",
     "SQLi ist in OWASP Top 10 unter «Injection» (A03:2021) einsortiert.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "SQL Injection – API Sicherheit #5",
+      url: "https://www.youtube.com/watch?v=8UKctJyDSUo",
+      note: "Fokus auf SQL-Injection im API-Kontext mit Gegenmaßnahmen.",
+    },
+    {
+      kind: "video",
+      title: "Security Shorts – Was ist eine SQL Injection und wie funktioniert dieser Angriff?",
+      url: "https://www.youtube.com/watch?v=bel0ACoN10E",
+      note: "Kompaktes Security-Short mit klarem Angriffsbeispiel.",
+    },
+  ],
   related: ["angriffe", "web-sicherheit", "sql-grundlagen"],
 };

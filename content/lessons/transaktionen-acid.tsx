@@ -73,5 +73,19 @@ export const transaktionenAcid: Lesson = {
     "COMMIT persistiert, ROLLBACK verwirft.",
     "Deadlock = zwei Transaktionen kreuzweise gesperrt; Livelock = beschäftigt, kommen aber nicht voran.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Was ist eine Transaktion und ACID? (mit MySQL-Beispiel)",
+      url: "https://www.youtube.com/watch?v=fgXvbnkPRzU",
+      note: "Transaktionen erklärt am konkreten MySQL-Beispiel.",
+    },
+    {
+      kind: "video",
+      title: "13.72 Transaktionen und ACID",
+      url: "https://www.youtube.com/watch?v=ZHq5f7eZPwA",
+      note: "Aus einer Datenbanksysteme-Vorlesungsreihe.",
+    },
+  ],
   related: ["sql-grundlagen", "sql-update"],
 };

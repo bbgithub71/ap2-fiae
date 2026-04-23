@@ -70,5 +70,19 @@ Drucker ←···· Auftrag   Abhängigkeit (Drucker nutzt Auftrag)`}
     "Komposition/Aggregation sparsam einsetzen – im Zweifel Assoziation.",
     "Realisierung (gestrichelt + Dreieck) nicht mit Vererbung (durchgezogen) verwechseln.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "UML Teil 2: Vererbung, Aggregation und Komposition (Neu Vertont)",
+      url: "https://www.youtube.com/watch?v=5baxIRQJ1FM",
+      note: "Strukturierte Einführung in die Beziehungstypen.",
+    },
+    {
+      kind: "video",
+      title: "UML Klassendiagramm – Aggregationen, Kompositionen und allgemeiner Aufbau",
+      url: "https://www.youtube.com/watch?v=ug2EeU13yDA",
+      note: "Fokus auf die Unterscheidung Aggregation ↔ Komposition.",
+    },
+  ],
   related: ["klassendiagramm", "klassen-objekte", "oo-grundprinzipien"],
 };

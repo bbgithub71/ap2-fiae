@@ -76,5 +76,19 @@ k.einzahlen(50.0);`}
     "Konstruktor hat NIE einen Rückgabetyp.",
     "In Szenariotexten: Nomen als Klassenkandidaten markieren, Verben als Methoden.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Java Grundlagen (Klassen & Objekte)",
+      url: "https://www.youtube.com/watch?v=7o-0IDEHs5M",
+      note: "Java-Einführung mit Klassen und Objekten.",
+    },
+    {
+      kind: "video",
+      title: "Konstruktor in Java – Java Programmieren Lernen #15",
+      url: "https://www.youtube.com/watch?v=cD_u6A5S9Xk",
+      note: "Fokus auf Konstruktor-Syntax und Initialisierung.",
+    },
+  ],
   related: ["klassendiagramm", "klassenbeziehungen", "oo-grundprinzipien"],
 };

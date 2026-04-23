@@ -70,5 +70,19 @@ export const anwendungsfalldiagramm: Lesson = {
     "include vs. extend: Pflicht vs. optional.",
     "Nie Methodenaufrufe modellieren – das ist Aufgabe von Sequenz-/Aktivitätsdiagramm.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "UML Anwendungsfalldiagramm Tutorial",
+      url: "https://www.youtube.com/watch?v=mSyMhl0i2E4",
+      note: "Grundlagen – Akteure, Use Cases und Systemgrenze.",
+    },
+    {
+      kind: "video",
+      title: "UML-Tutorial: Use Case Diagram – Akteure, Include, Extend, Generalisierung",
+      url: "https://www.youtube.com/watch?v=IWbGedKa8PU",
+      note: "Fokus auf include/extend – zentraler Prüfungsstoff.",
+    },
+  ],
   related: ["klassendiagramm", "aktivitaetsdiagramm", "anforderungen"],
 };

@@ -69,5 +69,25 @@ export const testmethoden: Lesson = {
     "Black vs. White vs. Gray als Tabelle lernen.",
     "Regressions- und Lasttest häufig als Zusatzfrage.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "SE2 Dynamische Tests: Black-Box-Verfahren",
+      url: "https://www.youtube.com/watch?v=-MLI9IrYvzc",
+      note: "Äquivalenzklassen und Grenzwertanalyse erklärt.",
+    },
+    {
+      kind: "video",
+      title: "SE2 Dynamische Tests: White-Box-Verfahren",
+      url: "https://www.youtube.com/watch?v=5LjQtOgDplE",
+      note: "Testfalldesign mit Kontrollflussgraphen.",
+    },
+    {
+      kind: "video",
+      title: "Testverfahren 1: Überblick über Testverfahren",
+      url: "https://www.youtube.com/watch?v=V-wl1vOWQHA",
+      note: "Struktureller Gesamtüberblick über Black- und White-Box-Tests.",
+    },
+  ],
   related: ["teststufen", "unit-tests-coverage", "tdd"],
 };
