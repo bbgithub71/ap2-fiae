@@ -81,6 +81,12 @@ import { wisoWirtschaftsordnung } from "./wiso-wirtschaftsordnung";
 import { wisoNachhaltigkeit } from "./wiso-nachhaltigkeit";
 import { praesentieren } from "./praesentieren";
 import { usability } from "./usability";
+import { projektphasen } from "./projektphasen";
+import { netzplan } from "./netzplan";
+import { bedarfsMachbarkeitsanalyse } from "./bedarfs-machbarkeitsanalyse";
+import { nutzwertanalyse } from "./nutzwertanalyse";
+import { risikomanagement } from "./risikomanagement";
+import { wirtschaftlichkeitsanalyse } from "./wirtschaftlichkeitsanalyse";
 
 const lessonList: Lesson[] = [
   // Algorithmen
@@ -163,7 +169,13 @@ const lessonList: Lesson[] = [
   anforderungen,
   makeOrBuy,
   greenIt,
+  projektphasen,
+  netzplan,
+  bedarfsMachbarkeitsanalyse,
+  nutzwertanalyse,
+  risikomanagement,
   // Wirtschaft
+  wirtschaftlichkeitsanalyse,
   kundenbeziehungen,
   recht,
   lizenzmodelle,
