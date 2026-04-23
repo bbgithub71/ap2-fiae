@@ -96,5 +96,26 @@ export const wisoBgb: Lesson = {
     "§§ 104 / 106 / 110 BGB immer präsent haben.",
     "Fernabsatz: 14 Tage, nicht 7 oder 28.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Vertragsarten einfach erklärt – Wichtige Rechtsgeschäfte",
+      url: "https://www.youtube.com/watch?v=8MQ1GrpB8b0",
+      note: "Guter Gesamtüberblick über Kauf-, Werk-, Dienst- & Mietvertrag.",
+    },
+    {
+      kind: "video",
+      title: "§ 631 BGB // Werkvertrag – einfach erklärt",
+      url: "https://www.youtube.com/watch?v=ZocN8RdE57g",
+      note: "Wichtig für die Abgrenzung Werkvertrag vs. Dienstvertrag.",
+    },
+    {
+      kind: "page",
+      title: "studyflix – Vertragsarten",
+      url: "https://studyflix.de/wirtschaft/vertragsarten-4479",
+      source: "studyflix.de",
+      note: "Azubi-Niveau mit eingebettetem Video und Zusammenfassung.",
+    },
+  ],
   related: ["wiso-arbeitsrecht", "wiso-rechtsformen", "recht"],
 };

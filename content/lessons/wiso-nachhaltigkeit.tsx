@@ -97,5 +97,27 @@ export const wisoNachhaltigkeit: Lesson = {
     "CSR (freiwillig) vs. CSRD (Pflicht).",
     "Abfallhierarchie-Reihenfolge strikt einhalten.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Drei-Säulen-Modell (Triple Bottom Line): Nachhaltigkeit",
+      url: "https://www.youtube.com/watch?v=JJqmYFaNMN0",
+      note: "Ökologie, Ökonomie, Soziales in einem Video visualisiert.",
+    },
+    {
+      kind: "page",
+      title: "VERSO – CSR, ESG, Nachhaltigkeit: Was ist der Unterschied?",
+      url: "https://verso.de/blog/csr-esg-nachhaltigkeit-was-ist-der-unterschied/",
+      source: "verso.de",
+      note: "Saubere Abgrenzung der drei Begriffe – genau, was die Prüfung verlangt.",
+    },
+    {
+      kind: "page",
+      title: "Haufe – Das 3-Säulen-Modell in Unternehmen",
+      url: "https://www.haufe.de/corporate-sustainability/drei-saulen-modell",
+      source: "haufe.de",
+      note: "Mit Beispielen aus der Unternehmenspraxis.",
+    },
+  ],
   related: ["green-it", "wiso-wirtschaftsordnung"],
 };

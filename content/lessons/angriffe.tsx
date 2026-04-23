@@ -110,5 +110,21 @@ export const angriffe: Lesson = {
     "DDoS = viele Quellen (Botnetz), DoS = eine.",
     "SQLi immer mit Prepared Statements beantworten.",
   ],
+  resources: [
+    {
+      kind: "page",
+      title: "ProSec – CSRF und XSS: Angriffsmethoden und Abwehr",
+      url: "https://www.prosec-networks.com/blog/cross-site-request-forgery/",
+      source: "prosec-networks.com",
+      note: "Seriöser Leitfaden mit Angriff und Gegenmaßnahmen nebeneinander.",
+    },
+    {
+      kind: "page",
+      title: "Trend Micro – Was ist Cross-Site-Scripting (XSS)?",
+      url: "https://www.trendmicro.com/de_de/what-is/cyber-attack/xss-cross-site-scripting.html",
+      source: "trendmicro.com",
+      note: "XSS im Detail, reflektiert vs. persistent.",
+    },
+  ],
   related: ["schutzziele", "web-sicherheit", "sql-injection"],
 };

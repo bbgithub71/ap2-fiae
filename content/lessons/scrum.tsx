@@ -97,5 +97,20 @@ export const scrum: Lesson = {
     "Scrum vs. Kanban: Timeboxes vs. kontinuierlicher Fluss.",
     "DoR und DoD nicht verwechseln – Ready (Eingang) vs. Done (Ausgang).",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Scrum – einfach erklärt! Rollen, Artefakte, Aktivitäten",
+      url: "https://www.youtube.com/watch?v=kO1Zp91B-Mc",
+      note: "Kompletter Überblick in wenigen Minuten.",
+    },
+    {
+      kind: "video",
+      title: "Scrum einfach erklärt | Ablauf und Rollen | Vor- und Nachteile",
+      url: "https://www.youtube.com/watch?v=R0ZuzXcXa7g",
+      channel: "wirtconomy",
+      note: "Mit Vor-/Nachteile-Diskussion – gut für Textaufgaben.",
+    },
+  ],
   related: ["vorgehensmodelle", "anforderungen"],
 };

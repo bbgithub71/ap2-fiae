@@ -185,5 +185,20 @@ export const aktivitaetsdiagramm: Lesson = {
     "Bei Prozessen mit mehreren Akteuren: Swimlanes zeichnen – das gibt oft Teilpunkte.",
     "Parallelität: Ausgehende Pfeile vom Fork enden IMMER wieder in einem Join.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "UML-Aktivitätsdiagramm für AP1 der IT-Berufe und AP2 Fachinformatiker Anwendungsentwicklung",
+      url: "https://www.youtube.com/watch?v=0l7eFqwGdBw",
+      channel: "IT-Berufe-Podcast (Stefan Macke)",
+      note: "Pflichtvideo – exakt für AP2 FIAE konzipiert.",
+    },
+    {
+      kind: "video",
+      title: "UML Teil 3: Das Aktivitätsdiagramm",
+      url: "https://www.youtube.com/watch?v=IKq-wBDfU7s",
+      note: "Strukturierte Einführung mit Symbolerklärungen.",
+    },
+  ],
   related: ["klassendiagramm", "sequenzdiagramm", "pseudocode", "bpmn"],
 };

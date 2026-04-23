@@ -155,5 +155,19 @@ LIMIT 10;`}
     "Immer Semikolon ans Ende – AP2-Korrektor:innen achten auf Form.",
     "Aliasse (AS) sparen Platz im Ergebnis und machen komplexe Abfragen lesbar.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "SQL Tutorial für Anfänger | Grundkurs Deutsch",
+      url: "https://www.youtube.com/watch?v=7HZbGReAi5s",
+      note: "Kompletter deutscher Grundkurs – ideal, wenn du bei Null anfängst.",
+    },
+    {
+      kind: "video",
+      title: "SQL lernen: Die Struktur einer Datenbank mit der DDL definieren (Teil 1/3)",
+      url: "https://www.youtube.com/watch?v=uoeQsF6_QQE",
+      note: "Fokus auf DDL – CREATE TABLE, Constraints, Schlüssel.",
+    },
+  ],
   related: ["sql-select", "sql-joins", "sql-update", "sql-insert", "sql-delete", "sql-ddl"],
 };

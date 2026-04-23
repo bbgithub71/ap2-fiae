@@ -68,5 +68,19 @@ WHERE bedingung;`}
     "DELETE ist transaktional – lieber einmal zu viel COMMIT/ROLLBACK erwähnen.",
     "Prüfer:innen mögen, wenn du ON DELETE CASCADE vs. RESTRICT gezielt benutzt.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Datenbanken und SQL #9 – Datensätze löschen mit DELETE",
+      url: "https://www.youtube.com/watch?v=FwIqrLCuf4E",
+      note: "Fokus auf DELETE mit WHERE-Bedingung.",
+    },
+    {
+      kind: "video",
+      title: "SQL: Insert, Delete und Update",
+      url: "https://www.youtube.com/watch?v=uj6GjI6odpM",
+      note: "Überblick über alle DML-Änderungsbefehle.",
+    },
+  ],
   related: ["sql-grundlagen", "sql-update", "sql-ddl"],
 };

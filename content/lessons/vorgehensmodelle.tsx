@@ -78,5 +78,20 @@ export const vorgehensmodelle: Lesson = {
     "Vor-/Nachteile immer als Listen-Antwort formulieren – bringt Teilpunkte einzeln.",
     "Bei Szenarien: unscharfe Anforderungen → agil; stark regulierter Kontext → V-Modell.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Das Wasserfallmodell – Einfach erklärt! (inkl. Stärken & Schwächen)",
+      url: "https://www.youtube.com/watch?v=YBwqVx2Prlk",
+      note: "Klassisches Wasserfallmodell mit Phasen und Bewertung.",
+    },
+    {
+      kind: "page",
+      title: "simpleclub – Vorgehensmodelle der Softwareentwicklung",
+      url: "https://simpleclub.com/lessons/informatik-vorgehensmodelle-der-softwareentwicklung",
+      source: "simpleclub.com",
+      note: "Kompakter Überblick aller Vorgehensmodelle im Vergleich.",
+    },
+  ],
   related: ["scrum", "anforderungen"],
 };

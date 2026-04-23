@@ -80,5 +80,20 @@ export const authentifizierung: Lesson = {
     "OAuth = Autorisierung, OIDC = Authentifizierung. Diese Trennung ist Top-MC-Stoff.",
     "Bei feingranularer Rechtevergabe → ABAC.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "So funktioniert die Zwei-Faktor-Authentisierung",
+      url: "https://www.youtube.com/watch?v=xCCni1Sxe80",
+      channel: "BSI",
+      note: "Offizielles Video des Bundesamts für Sicherheit in der Informationstechnik.",
+    },
+    {
+      kind: "video",
+      title: "Zwei-Faktor-Authentifizierung einfach erklärt",
+      url: "https://www.youtube.com/watch?v=Y-u78Jxj5U8",
+      note: "Kompakte Einführung in 2FA als Spezialfall von MFA.",
+    },
+  ],
   related: ["schutzziele", "kryptografie", "dsgvo"],
 };

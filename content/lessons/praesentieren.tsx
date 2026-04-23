@@ -76,5 +76,21 @@ export const praesentieren: Lesson = {
     "Live-Demos immer Fallback einplanen.",
     "Fachgespräch ≠ Präsentation – anderer Modus, anderer Fokus.",
   ],
+  resources: [
+    {
+      kind: "page",
+      title: "studyflix – Präsentationstechniken",
+      url: "https://studyflix.de/jobs/karriere-tipps/praesentationstechniken-7191",
+      source: "studyflix.de",
+      note: "Methoden, Tipps & Beispiele mit eingebettetem Video.",
+    },
+    {
+      kind: "page",
+      title: "DGUV – Lernen & Gesundheit: Richtig präsentieren",
+      url: "https://www.dguv-lug.de/berufsbildende-schulen/selbstmanagement/richtig-praesentieren/",
+      source: "dguv-lug.de",
+      note: "Unterrichtseinheit für Azubis, speziell für Berufsschulen.",
+    },
+  ],
   related: ["usability", "kundenbeziehungen"],
 };

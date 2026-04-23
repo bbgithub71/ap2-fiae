@@ -111,5 +111,19 @@ LEFT JOIN kunde k ON k.id = b.kunde_id;`,
     "ON-Klausel = Join-Bedingung. Weitere Filter kommen in WHERE (oder bewusst mit in ON, wenn sich sonst LEFT JOIN in INNER JOIN verwandelt).",
     "Bei LEFT JOIN + WHERE auf rechte Spalte: ungewollt INNER JOIN! Dann Bedingung in ON verschieben.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Inner, Full, Left und Right JOIN erklärt! | SQL Tutorial",
+      url: "https://www.youtube.com/watch?v=HmVsfkKeDHA",
+      note: "Alle JOIN-Typen mit Mengendiagrammen visualisiert.",
+    },
+    {
+      kind: "video",
+      title: "INNER JOIN, LEFT OUTER JOIN, RIGHT OUTER JOIN in 5 Minuten erklärt",
+      url: "https://www.youtube.com/watch?v=CaWOzl0Y_vE",
+      note: "Kompakt und auf den Punkt – ideal für die letzte Wiederholung.",
+    },
+  ],
   related: ["sql-select", "sql-grundlagen"],
 };

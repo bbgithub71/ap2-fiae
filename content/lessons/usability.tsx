@@ -79,5 +79,20 @@ export const usability: Lesson = {
     "Effektivität/Effizienz/Zufriedenheit unterscheiden – Dreiklang nach ISO 9241-11.",
     "WCAG = POUR. BFSG macht Barrierefreiheit in DE ab 2025 verpflichtend.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Benutzerbindung – Neuer Grundsatz in der ISO 9241-110",
+      url: "https://www.youtube.com/watch?v=x2vxfWsFjDg",
+      note: "Aktualisierung der Dialoggrundsätze 2020.",
+    },
+    {
+      kind: "page",
+      title: "ISO 9241-11 einfach erklärt | UX & Usability Toolkit",
+      url: "https://www.softwareevaluation.de/de/grundlagen/iso-9241-11-einfach-erklaert/",
+      source: "softwareevaluation.de",
+      note: "Effektivität, Effizienz, Zufriedenheit kompakt.",
+    },
+  ],
   related: ["praesentieren", "qualitaetssicherung"],
 };

@@ -5,6 +5,7 @@ import { categoryById } from "@/lib/categories";
 import { priorityMeta } from "@/lib/priority";
 import { PriorityBadge } from "@/components/PriorityBadge";
 import { ExerciseList } from "@/components/ExerciseList";
+import { Resources } from "@/components/Resources";
 import { Callout } from "@/components/Callout";
 import { getLesson } from "@/content/lessons";
 
@@ -117,6 +118,10 @@ export default async function TopicPage({ params }: { params: Promise<{ slug: st
 
           {lesson.exercises && lesson.exercises.length > 0 ? (
             <ExerciseList items={lesson.exercises} />
+          ) : null}
+
+          {lesson.resources && lesson.resources.length > 0 ? (
+            <Resources items={lesson.resources} />
           ) : null}
 
           {lesson.examTips && lesson.examTips.length > 0 ? (

@@ -75,5 +75,20 @@ export const anforderungen: Lesson = {
     "Nicht-funktional oft an -keit erkennbar: Perform-ance, Usabil-ity, Zuverlässig-keit.",
     "User Story-Schema auswendig für Punkte.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Lastenheft und Pflichtenheft | leicht erklärt | mit Definition und Bestandteilen",
+      url: "https://www.youtube.com/watch?v=DFTjoYk5A-I",
+      note: "Klare Abgrenzung und was in beide Dokumente gehört.",
+    },
+    {
+      kind: "page",
+      title: "Blue Ant – Lastenheft vs. Pflichtenheft einfach erklärt",
+      url: "https://blueant.de/de/ressourcen/projektmanagement-wissen/lastenheft-vs-pflichtenheft/",
+      source: "blueant.de",
+      note: "Kompakte Abgrenzungs-Tabelle.",
+    },
+  ],
   related: ["vorgehensmodelle", "scrum", "bpmn"],
 };

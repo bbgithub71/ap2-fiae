@@ -73,5 +73,19 @@ WHERE aktiv = FALSE;`}
     "Bei Beispielen in der Prüfung: Werte in richtiger Reihenfolge + Zeichenketten in Hochkommas.",
     "DEFAULT / NULL explizit hinschreiben, wenn im Aufgabentext gefordert.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "SQL: Insert, Delete und Update",
+      url: "https://www.youtube.com/watch?v=uj6GjI6odpM",
+      note: "Alle drei DML-Befehle zum Ändern, Einfügen und Löschen.",
+    },
+    {
+      kind: "video",
+      title: "Einführung in MySQL: SELECT, UPDATE, INSERT und DELETE schnell erklärt",
+      url: "https://www.youtube.com/watch?v=mseVEvluYb0",
+      note: "Kompakter Crashkurs mit Fokus auf INSERT.",
+    },
+  ],
   related: ["sql-grundlagen", "sql-update", "sql-delete", "sql-ddl"],
 };

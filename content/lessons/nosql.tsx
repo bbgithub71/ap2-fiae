@@ -89,5 +89,19 @@ export const nosql: Lesson = {
     "CAP-Theorem: bei Partition 2 von 3. MongoDB = CP, Cassandra = AP.",
     "NoSQL statt relational, wenn: sehr große Datenmengen, unstrukturiert, hoher Durchsatz oder Graphbeziehungen.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "SQL vs NoSQL – was ist besser? (auf Deutsch erklärt)",
+      url: "https://www.youtube.com/watch?v=HOtrRY583YE",
+      note: "Direkter Vergleich der beiden Ansätze mit Beispielen.",
+    },
+    {
+      kind: "video",
+      title: "Dokumente speichern – NoSQL-Datenbanken Crashkurs",
+      url: "https://www.youtube.com/watch?v=Lg-O6XJSefU",
+      note: "Aus einer Reihe zu NoSQL-Grundlagen mit CouchDB, MongoDB, Redis.",
+    },
+  ],
   related: ["transaktionen-acid", "relationales-datenmodell", "cloud-speicher"],
 };

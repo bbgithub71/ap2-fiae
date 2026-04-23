@@ -95,5 +95,27 @@ export const wisoArbeitsrecht: Lesson = {
     "§ 622 BGB: Fristen verlängern sich mit Betriebszugehörigkeit – aber nur in Richtung AG → AN.",
     "Bei Azubis gilt BBiG, BGB nur nachrangig.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Ausbildungsvertrag: Rechte & Pflichten als Azubi | Kündigung, Probezeit & Verkürzung einfach erklärt",
+      url: "https://www.youtube.com/watch?v=0vjnervcbHc",
+      note: "Kompakter Überblick rund um BBiG – gut für den Prüfungseinstieg.",
+    },
+    {
+      kind: "page",
+      title: "IHK Düsseldorf – Kündigung des Ausbildungsverhältnisses",
+      url: "https://www.ihk.de/duesseldorf/ausbildung/ausbildung-von-a-z/kuendigung-2596730",
+      source: "ihk.de",
+      note: "Offizielle IHK-Seite mit allen Kündigungsvarianten für Azubis.",
+    },
+    {
+      kind: "page",
+      title: "§ 22 BBiG – Kündigung",
+      url: "https://www.gesetze-im-internet.de/bbig_2005/__22.html",
+      source: "gesetze-im-internet.de",
+      note: "Originaltext – falls Prüfer konkret zitieren.",
+    },
+  ],
   related: ["wiso-sozialversicherung", "wiso-bgb", "wiso-mitbestimmung"],
 };

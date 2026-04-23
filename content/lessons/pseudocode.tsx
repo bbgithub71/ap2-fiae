@@ -268,5 +268,19 @@ ENDE FÜR`,
     "Bei Schleifen: Abbruchbedingung UND Zähler-Update immer mitdenken.",
     "Wenn der Algorithmus nichts liefert, explizit mit Kommentar notieren: »gibt nichts zurück«.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Pseudocode erklärt für IT-Azubis (AP Teil 1 Vorbereitung)",
+      url: "https://www.youtube.com/watch?v=uhDo89-ANLk",
+      note: "Speziell für die IHK-Prüfung der IT-Berufe – direkt am Prüfungsniveau.",
+    },
+    {
+      kind: "video",
+      title: "Pseudocode (Programmieren) einfach erklärt",
+      url: "https://www.youtube.com/watch?v=YpzmKOmmYrg",
+      note: "Grundlagen kompakt: Sequenz, Verzweigung, Schleifen.",
+    },
+  ],
   related: ["kontrollstrukturen", "rekursion", "suchen-sortieren"],
 };

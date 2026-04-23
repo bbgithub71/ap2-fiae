@@ -87,5 +87,34 @@ export const wisoMitbestimmung: Lesson = {
     "§ 87 BetrVG = volle Mitbestimmung, § 102 = Kündigungsanhörung.",
     "Mitwirkung ≠ Mitbestimmung – Mitbestimmung ist stärker (Einigungsstelle).",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Tarifvertrag einfach erklärt – Tarifvertragsarten, Tarifautonomie, Friedenspflicht",
+      url: "https://www.youtube.com/watch?v=Ss3qJc1G21o",
+      note: "Kompakte Einführung in Tarifverträge.",
+    },
+    {
+      kind: "video",
+      title: "Betriebliche Mitbestimmung – Erklärfilm",
+      url: "https://www.youtube.com/watch?v=eCcZSmojG-c",
+      channel: "Böckler Schule",
+      note: "Kurzes Erklärvideo zur Mitbestimmung im Betrieb.",
+    },
+    {
+      kind: "video",
+      title: "Mitbestimmung im Aufsichtsrat – Erklärfilm",
+      url: "https://www.youtube.com/watch?v=kbjqi3_3MjI",
+      channel: "Böckler Schule",
+      note: "Drittelbeteiligung und paritätische Mitbestimmung erklärt.",
+    },
+    {
+      kind: "page",
+      title: "IHK Nord Westfalen – Betriebsverfassungsgesetz",
+      url: "https://www.ihk.de/nordwestfalen/recht/arbeitsrecht/betriebsverfassungsgesetz-3601968",
+      source: "ihk.de",
+      note: "Schwellenwerte und Rechte des Betriebsrats kompakt.",
+    },
+  ],
   related: ["wiso-arbeitsrecht", "wiso-rechtsformen"],
 };

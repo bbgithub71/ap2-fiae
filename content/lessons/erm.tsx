@@ -91,5 +91,20 @@ export const erm: Lesson = {
     "Beziehungsname aktiv formulieren (erteilt, enthält, arbeitet_in).",
     "Entscheide dich auf einen Notationsstil (Chen ODER Crow's Foot) und bleib dabei.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Was ist das Entity-Relationship-Modell (ERM)? – einfach erklärt!",
+      url: "https://www.youtube.com/watch?v=G8IBLzQzSQs",
+      note: "Kompakte Einführung mit Kardinalitäten.",
+    },
+    {
+      kind: "video",
+      title: "Entity Relationship Modell einfach erklärt | Grundlagen und Beispielaufgabe",
+      url: "https://www.youtube.com/watch?v=qeMDNuzCxqo",
+      channel: "wirtconomy",
+      note: "Mit durchgearbeitetem Beispiel – gut fürs Prüfungstraining.",
+    },
+  ],
   related: ["relationales-datenmodell", "normalisierung", "sql-ddl"],
 };

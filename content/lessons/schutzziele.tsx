@@ -71,5 +71,19 @@ export const schutzziele: Lesson = {
     "VIV-Merksatz: Vertraulichkeit, Integrität, Verfügbarkeit.",
     "Jedes Ziel hat klassische Maßnahmen – eine passende nennen reicht oft.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Die Schutzziele der Informationssicherheit (CIA-Triade)",
+      url: "https://www.youtube.com/watch?v=aNJ2LPm2i6g",
+      note: "Vertraulichkeit, Integrität, Verfügbarkeit anschaulich erklärt.",
+    },
+    {
+      kind: "video",
+      title: "Schutzziele in der Informationssicherheit – Vertraulichkeit, Integrität, Verfügbarkeit und mehr",
+      url: "https://www.youtube.com/watch?v=9TuHFuzXKKo",
+      note: "Inkl. erweiterter Schutzziele (Authentizität, Nicht-Abstreitbarkeit).",
+    },
+  ],
   related: ["angriffe", "kryptografie", "dsgvo"],
 };

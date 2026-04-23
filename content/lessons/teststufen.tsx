@@ -66,5 +66,20 @@ export const teststufen: Lesson = {
     "Pyramide von unten (viele Units) nach oben (wenige Abnahmetests).",
     "Im V-Modell: horizontal zuordnen.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Testmethoden und Testtechniken",
+      url: "https://www.youtube.com/watch?v=v7dhi8ajza4",
+      note: "Statische und dynamische Tests mit Teststufen erklärt.",
+    },
+    {
+      kind: "page",
+      title: "Teststufen: Whitebox- und Blackbox-Testing",
+      url: "https://www.hmc2.net/page12/page9/",
+      source: "hmc2.net",
+      note: "Übersicht aller Teststufen von Unit bis Abnahme.",
+    },
+  ],
   related: ["testmethoden", "unit-tests-coverage", "qualitaetssicherung"],
 };

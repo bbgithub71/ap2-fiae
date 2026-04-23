@@ -91,5 +91,19 @@ git push -u origin feature/login`}
     "Rebase = lineare Historie, Merge = echte Historie.",
     "Git ist verteilt – jedes Repo ist vollwertig, kein Single Point.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Lerne Git in 30 Minuten // Git Tutorial Deutsch",
+      url: "https://www.youtube.com/watch?v=V0bXqLxIivo",
+      note: "Schneller Einstieg in die wichtigsten Git-Kommandos.",
+    },
+    {
+      kind: "video",
+      title: "GIT Branch & Merge kurz erklärt – Die Git Grundlagen",
+      url: "https://www.youtube.com/watch?v=6_KqHPG2uaI",
+      note: "Fokus auf Branching und Merge – zentral für Teamwork.",
+    },
+  ],
   related: ["testautomatisierung", "anforderungen", "vorgehensmodelle"],
 };

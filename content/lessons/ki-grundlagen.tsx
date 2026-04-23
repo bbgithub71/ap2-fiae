@@ -88,5 +88,20 @@ export const kiGrundlagen: Lesson = {
     "Bei Erklärungen zur GenAI: Chancen UND Risiken nennen – bringt Punkte.",
     "Quellkritik betonen: LLMs können falsch liegen.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "KI, Machine-Learning, ChatGPT, Deep-Learning & Co. einfach erklärt!",
+      url: "https://www.youtube.com/watch?v=CY5wp7-uh6Y",
+      note: "Alle relevanten KI-Begriffe auf einmal geklärt.",
+    },
+    {
+      kind: "video",
+      title: "Künstliche Intelligenz einfach erklärt (explainity Erklärvideo)",
+      url: "https://www.youtube.com/watch?v=fT69SLK2m9I",
+      channel: "explainity",
+      note: "Kurzes Erklärvideo – ideal für den schnellen Einstieg.",
+    },
+  ],
   related: ["green-it"],
 };

@@ -81,5 +81,27 @@ export const wisoRechtsformen: Lesson = {
     "Organe der AG: Vorstand führt, AR kontrolliert, HV entscheidet.",
     "UG: 1 € möglich, aber 25 %-Gewinnrücklage bis 25.000 € Pflicht.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Unternehmensformen einfach erklärt – Rechtsformen: AG, GmbH, OHG, GbR, KG, UG",
+      url: "https://www.youtube.com/watch?v=uFfsZA3wnWE",
+      note: "Deckt alle prüfungsrelevanten Formen in einem Video ab.",
+    },
+    {
+      kind: "page",
+      title: "IHK Stuttgart – Rechtsformen im Überblick",
+      url: "https://www.ihk.de/stuttgart/fuer-unternehmen/recht-und-steuern/gesellschaftsrecht-unternehmensformen/wahl-der-rechtsform-gesellschaftsrecht/wahl-der-rechtsform-677188",
+      source: "ihk.de",
+      note: "Offizielle Übersicht auf IHK-Niveau.",
+    },
+    {
+      kind: "page",
+      title: "IHK-Merkblatt «Rechtsformen als Tabelle» (PDF)",
+      url: "https://www.ihk.de/blueprint/servlet/resource/blob/5209610/881c8a3d828e17662c2691b1b735307e/merkblatt-rechtsformen-als-tabelle-data.pdf",
+      source: "ihk.de",
+      note: "Ideal zum Ausdrucken – kompakte Vergleichstabelle.",
+    },
+  ],
   related: ["wiso-bgb", "wiso-wirtschaftsordnung", "wiso-mitbestimmung"],
 };

@@ -77,5 +77,21 @@ Referrer-Policy: strict-origin-when-cross-origin`}
     "CSP-Beispiel parat haben: `default-src 'self'`.",
     "XSS vs. CSRF in 1 Satz erklären können.",
   ],
+  resources: [
+    {
+      kind: "page",
+      title: "MDN – Cross-Site-Request-Forgery (CSRF)",
+      url: "https://developer.mozilla.org/de/docs/Web/Security/Attacks/CSRF",
+      source: "developer.mozilla.org",
+      note: "Die offizielle Mozilla-Doku – inkl. Gegenmaßnahmen.",
+    },
+    {
+      kind: "page",
+      title: "ProSec – CSRF und XSS: Angriffsmethoden und Abwehr",
+      url: "https://www.prosec-networks.com/blog/cross-site-request-forgery/",
+      source: "prosec-networks.com",
+      note: "Sauberer Leitfaden mit Angriff und Abwehr nebeneinander.",
+    },
+  ],
   related: ["angriffe", "sql-injection", "kryptografie"],
 };

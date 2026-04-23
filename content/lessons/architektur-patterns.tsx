@@ -71,5 +71,25 @@ export const architekturPatterns: Lesson = {
     "MVC in 1 Satz: «Model, View, Controller – entkoppelt Daten, Darstellung, Steuerung».",
     "Wann Microservices? Mehrere Teams, unterschiedliche Skalierung, Polyglot-Persistenz.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Monolithen vs. Microservices",
+      url: "https://www.youtube.com/watch?v=N0k3VKL4Als",
+      note: "Direkter Vergleich der beiden Haupt-Architekturansätze.",
+    },
+    {
+      kind: "video",
+      title: "Was ist eine Microservice-Architektur? (Wann du sie nicht nutzen solltest)",
+      url: "https://www.youtube.com/watch?v=ZXfLy229GLs",
+      note: "Realistische Einordnung: Microservices sind kein Allheilmittel.",
+    },
+    {
+      kind: "video",
+      title: "Vorgehensmodell MVC – Model, View, Controller kurz erklärt",
+      url: "https://www.youtube.com/watch?v=VGQMQUa_o5o",
+      note: "Klassisches MVC-Pattern für UIs.",
+    },
+  ],
   related: ["design-patterns", "modularisierung", "container"],
 };

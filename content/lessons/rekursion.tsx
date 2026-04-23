@@ -92,5 +92,19 @@ GIB fak(4) aus`,
     "Bei Fibonacci auf O(2^n) naiv vs. O(n) iterativ/memoisiert hinweisen.",
     "Jeder rekursive Algorithmus hat eine iterative Variante.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Rekursion in JavaScript – Fakultät und Fibonacci schrittweise erklärt",
+      url: "https://www.youtube.com/watch?v=f54PSMjYa5w",
+      note: "Klassische Rekursions-Beispiele Schritt für Schritt.",
+    },
+    {
+      kind: "video",
+      title: "C Programmieren – Rekursion, Fibonacci-Folge",
+      url: "https://www.youtube.com/watch?v=d9IA2a9B2us",
+      note: "Alternative Sprache, gut für den Quervergleich.",
+    },
+  ],
   related: ["pseudocode", "kontrollstrukturen", "suchen-sortieren"],
 };

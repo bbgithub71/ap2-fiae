@@ -118,5 +118,19 @@ ENDE FÜR`}
     "Bei Erklärungen: 1 Satz Definition + 1 Beispiel pro Säule ist die sichere Struktur.",
     "Polymorphie != Überladung. Überladung ist statisch (gleicher Name, andere Parameter).",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Objektorientierte Programmierung in 7 Minuten (die vier Säulen)",
+      url: "https://www.youtube.com/watch?v=EdK_7QNj1Jk",
+      note: "Sehr kompakt – die 4 Säulen (Kapselung, Abstraktion, Vererbung, Polymorphie) auf einen Schlag.",
+    },
+    {
+      kind: "video",
+      title: "Objektorientierung in 10 Minuten",
+      url: "https://www.youtube.com/watch?v=w5M1IlvILLg",
+      note: "Zweite Erklärung mit anderem Beispiel – gut zum Verfestigen.",
+    },
+  ],
   related: ["klassendiagramm", "klassen-objekte", "klassenbeziehungen"],
 };

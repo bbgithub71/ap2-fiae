@@ -94,5 +94,19 @@ Netze je Oktett: .0, .32, .64, .96, .128, .160, .192, .224
     "Erst Blockgröße bestimmen, dann IP in den Block einsortieren.",
     "Netz = erste Adresse, Broadcast = letzte, alles dazwischen = Hosts.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Subnetting einfach erklärt! Netzanteil, Hostanteil, Subnetzmaske, Netz-IP",
+      url: "https://www.youtube.com/watch?v=jgwWFKryrOw",
+      note: "Schritt-für-Schritt mit Rechenbeispielen.",
+    },
+    {
+      kind: "video",
+      title: "IPv4 endlich verstehen: VLSM und CIDR/Supernetting",
+      url: "https://www.youtube.com/watch?v=Z9WghxvNw6c",
+      note: "Für Fortgeschrittene – CIDR-Notation tiefergehend.",
+    },
+  ],
   related: ["osi-modell", "protokolle"],
 };

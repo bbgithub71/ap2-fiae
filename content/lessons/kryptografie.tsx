@@ -80,5 +80,19 @@ export const kryptografie: Lesson = {
     "Signieren mit eigenem Private, jeder kann mit Public prüfen.",
     "SHA-256 als sicheren Hash nennen, MD5 als veraltet.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Symmetrische und asymmetrische Verschlüsselung",
+      url: "https://www.youtube.com/watch?v=L8NpBZwamUw",
+      note: "Grundunterschied beider Verfahren verständlich erklärt.",
+    },
+    {
+      kind: "video",
+      title: "Verschlüsselungsverfahren (symmetrisch, asymmetrisch, hybrid)",
+      url: "https://www.youtube.com/watch?v=NPHlmQnZhv4",
+      note: "Inkl. hybrider Verfahren (wie bei TLS).",
+    },
+  ],
   related: ["schutzziele", "angriffe", "authentifizierung"],
 };

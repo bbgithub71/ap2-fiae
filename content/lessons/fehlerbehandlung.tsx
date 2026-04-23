@@ -80,5 +80,20 @@ public void lese(String p) throws IOException { /* checked */ }`}
     "`finally` ist ideal für Ressourcen-Cleanup (Dateien, DB-Verbindungen).",
     "`try-with-resources` ersetzt `finally` für `AutoCloseable`.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Exceptions in Java (try-catch-finally, throw)",
+      url: "https://www.youtube.com/watch?v=O1yJ9wvlviA",
+      note: "Die zentralen Exception-Keywords mit Beispielen.",
+    },
+    {
+      kind: "page",
+      title: "IRC-Coding – Exception Handling in Java",
+      url: "https://www.irc-coding.de/exception-handling-java-try-catch-finally-throw-throws-custom-exceptions",
+      source: "irc-coding.de",
+      note: "Modernes Tutorial inkl. Custom Exceptions.",
+    },
+  ],
   related: ["pseudocode", "qualitaetssicherung", "testmethoden"],
 };

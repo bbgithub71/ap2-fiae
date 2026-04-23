@@ -97,5 +97,19 @@ plz_ort   (plz, ort)`}
     "Nicht-Schlüsselattribute in den Fokus stellen – das sind die Ursachen von 2NF- und 3NF-Verletzungen.",
     "Formuliere deine Lösung mit den Namen der neuen Tabellen + ihren PKs/FKs.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Normalformen bei Datenbanken einfach erklärt (1. bis 3. Normalform)",
+      url: "https://www.youtube.com/watch?v=caMVrHP-SIs",
+      note: "Alle drei prüfungsrelevanten Normalformen am Stück.",
+    },
+    {
+      kind: "video",
+      title: "Die drei Normalformen in einer Datenbank – einfach erklärt",
+      url: "https://www.youtube.com/watch?v=I2_hNwaQvBI",
+      note: "Alternative Erklärung – zum Quervergleich.",
+    },
+  ],
   related: ["relationales-datenmodell", "erm"],
 };

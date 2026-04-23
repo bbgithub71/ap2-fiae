@@ -70,5 +70,19 @@ export const tdd: Lesson = {
     "Reihenfolge nie verwechseln: Red (Test schlägt fehl), Green (Test grün), Refactor.",
     "BDD ergänzt TDD, ersetzt es nicht.",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "Test-Driven Development (TDD) // deutsch",
+      url: "https://www.youtube.com/watch?v=71nLhdZuMk0",
+      note: "Kompakte Einführung in TDD auf Deutsch.",
+    },
+    {
+      kind: "video",
+      title: "Test Driven Development (TDD) – Mit Profi-Tipps und Beispiel",
+      url: "https://www.youtube.com/watch?v=Q7IacWtNaG0",
+      note: "Red-Green-Refactor am konkreten Beispiel.",
+    },
+  ],
   related: ["unit-tests-coverage", "teststufen", "qualitaetssicherung"],
 };

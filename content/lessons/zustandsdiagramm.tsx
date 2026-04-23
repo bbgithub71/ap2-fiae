@@ -73,5 +73,20 @@ export const zustandsdiagramm: Lesson = {
     "Endzustand ist optional, aber sauberer fürs Diagramm.",
     "Jeder Zustand sollte eine ausgehende Transition haben (oder Endzustand sein).",
   ],
+  resources: [
+    {
+      kind: "video",
+      title: "UML-Zustandsdiagramm für Fachinformatiker Anwendungsentwicklung",
+      url: "https://www.youtube.com/watch?v=5qp0WkU_T-M",
+      channel: "IT-Berufe-Podcast (Stefan Macke)",
+      note: "Lehrgespräch direkt für FIAE – Pflichtmaterial.",
+    },
+    {
+      kind: "video",
+      title: "UML Teil 6: Das Zustandsdiagramm",
+      url: "https://www.youtube.com/watch?v=bcoqPlRWI34",
+      note: "Strukturierte Einführung mit allen Elementen.",
+    },
+  ],
   related: ["aktivitaetsdiagramm", "sequenzdiagramm", "klassendiagramm"],
 };
