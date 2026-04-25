@@ -1,4 +1,5 @@
 export type CategoryId =
+  | "pruefungsprojekt"
   | "datenbanken"
   | "uml"
   | "algorithmen"
@@ -20,6 +21,12 @@ export interface Category {
 }
 
 export const categories: Category[] = [
+  {
+    id: "pruefungsprojekt",
+    title: "AP2-Prüfungsprojekt",
+    description: "Projektantrag, Projektdokumentation, Präsentation, Fachgespräch – alles rund ums betriebliche AP2-Projekt.",
+    icon: "clipboard",
+  },
   {
     id: "datenbanken",
     title: "Datenbanken & SQL",

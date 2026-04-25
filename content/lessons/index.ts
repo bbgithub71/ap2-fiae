@@ -87,8 +87,11 @@ import { bedarfsMachbarkeitsanalyse } from "./bedarfs-machbarkeitsanalyse";
 import { nutzwertanalyse } from "./nutzwertanalyse";
 import { risikomanagement } from "./risikomanagement";
 import { wirtschaftlichkeitsanalyse } from "./wirtschaftlichkeitsanalyse";
+import { projektdokumentation } from "./projektdokumentation";
 
 const lessonList: Lesson[] = [
+  // Prüfungsprojekt
+  projektdokumentation,
   // Algorithmen
   pseudocode,
   kontrollstrukturen,
