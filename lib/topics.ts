@@ -26,6 +26,16 @@ export interface TopicMeta {
  *   - Berichten aus Foren / it-berufe-podcast / ap2.online
  */
 export const topics: TopicMeta[] = [
+  // ---------------- Prüfungsprojekt ----------------
+  {
+    slug: "projektdokumentation",
+    title: "IHK-Projektdokumentation",
+    category: "pruefungsprojekt",
+    priority: "essentiell",
+    keywords: ["Projektdokumentation", "Aufbau", "Anhang", "IHK-Vorgaben", "Quellcode", "Fachgespräch"],
+    summary: "Pflichtbestandteil der AP2 – die Doku zählt 50 % der Gesamtnote. Aufbau, IHK-Vorgaben, Best Practices.",
+  },
+
   // ---------------- Algorithmen / Pseudocode ----------------
   {
     slug: "pseudocode",
