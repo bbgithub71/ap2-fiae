@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { SearchBar } from "./SearchBar";
 
 const navItems = [
   { href: "/", label: "Start" },
@@ -28,10 +29,10 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-30 border-b border-white/10 bg-zinc-950/80 backdrop-blur">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
+      <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-3 sm:gap-4 sm:px-6">
         <Link
           href="/"
-          className="flex items-center gap-2 text-sm font-semibold tracking-tight"
+          className="flex flex-none items-center gap-2 text-sm font-semibold tracking-tight"
         >
           <span className="grid h-8 w-8 place-items-center rounded-lg bg-gradient-to-br from-sky-500 to-violet-500 text-[11px] font-bold text-white">
             AP2
@@ -42,8 +43,13 @@ export function SiteHeader() {
           </span>
         </Link>
 
+        {/* Desktop search (sm+) */}
+        <div className="hidden flex-1 sm:block">
+          <SearchBar variant="header" />
+        </div>
+
         {/* Desktop nav (sm+) */}
-        <nav className="hidden items-center gap-1 text-sm sm:flex" aria-label="Hauptnavigation">
+        <nav className="hidden flex-none items-center gap-1 text-sm sm:flex" aria-label="Hauptnavigation">
           {navItems.map((i) => {
             const active = i.href === "/" ? pathname === "/" : pathname?.startsWith(i.href);
             return (
@@ -62,6 +68,9 @@ export function SiteHeader() {
             );
           })}
         </nav>
+
+        {/* Mobile spacer pushes hamburger right */}
+        <div className="ml-auto sm:hidden" aria-hidden />
 
         {/* Mobile menu toggle (< sm) */}
         <button
@@ -98,9 +107,16 @@ export function SiteHeader() {
           id="mobile-nav"
           className="sm:hidden fixed inset-x-0 top-[57px] z-30 border-b border-white/10 bg-zinc-950/95 backdrop-blur"
         >
+          <div className="mx-auto max-w-6xl px-4 pb-2 pt-3">
+            <SearchBar
+              variant="modal"
+              autoFocus
+              onNavigate={() => setOpen(false)}
+            />
+          </div>
           <nav
             aria-label="Hauptnavigation mobil"
-            className="mx-auto flex max-w-6xl flex-col gap-1 px-4 py-3"
+            className="mx-auto flex max-w-6xl flex-col gap-1 px-4 pb-3"
           >
             {navItems.map((i) => {
               const active = i.href === "/" ? pathname === "/" : pathname?.startsWith(i.href);
